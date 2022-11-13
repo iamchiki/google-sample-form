@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+.form-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .card {
   background-color: #fff;
   border-radius: 1rem;

@@ -7,7 +7,7 @@ const QuestionCard = ({ questionDtl }) => {
     <div className="card">
       <p>{title}</p>
       {description && <p>{description}</p>}
-      <Answer type={type} options={options}></Answer>
+      <Answer type={type} options={options} is_required={is_required}></Answer>
     </div>
   );
 };
