@@ -9,7 +9,6 @@ const useFormDetail = () => {
         "https://mocki.io/v1/1325ec22-b1c6-47cb-8950-c68aa9ff0c40"
       );
       const data = await response.json();
-      console.log(data);
       setForm(data);
     };
     fetchFormDtl();

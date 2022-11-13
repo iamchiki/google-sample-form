@@ -40,7 +40,11 @@ const Answer = ({ type, options, is_required }) => {
           </ol>
           <select required={isRequired}>
             {options.map((option) => {
-              return <option value={option.title}>{+option.title + 1}</option>;
+              return (
+                <option key={option.id} value={option.title}>
+                  {+option.title + 1}
+                </option>
+              );
             })}
           </select>
         </div>
